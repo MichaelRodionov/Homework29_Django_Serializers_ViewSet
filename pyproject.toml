@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "homework29-django-serializers-viewset"
+version = "0.1.0"
+description = ""
+authors = ["MichaelRodionov <106465054+MichaelRodionov@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "homework29_django_serializers_viewset"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.7"
+psycopg2-binary = "^2.9.5"
+djangorestframework = "^3.14.0"
+pillow = "^9.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
