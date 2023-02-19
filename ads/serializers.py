@@ -99,3 +99,4 @@ class AdChangeSerializer(serializers.ModelSerializer):
     class Meta:
         model: Advertisement = Advertisement
         exclude: list[str] = ['id', 'image']
+
