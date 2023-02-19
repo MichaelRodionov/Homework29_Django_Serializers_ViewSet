@@ -42,15 +42,6 @@ class CatChangeSerializer(serializers.ModelSerializer):
 
 # ----------------------------------------------------------------
 # Advertisement serializers
-class AdvertisementDefaultSerializer(serializers.ModelSerializer):
-    """
-    Default serializer for Advertisement
-    """
-    class Meta:
-        model: Advertisement = Advertisement
-        exclude: list[str] = ['id']
-
-
 class AdListDetailSerializer(serializers.ModelSerializer):
     """
     Serializer for ListView and RetrieveView
